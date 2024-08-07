@@ -1,0 +1,126 @@
+{
+  "sections": {
+    "rich_text_GfjMXt": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_hqdJY4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_zPiEPx": {
+          "type": "heading",
+          "settings": {
+            "text": "News",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_pjxCm9": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_hqdJY4",
+        "heading_zPiEPx",
+        "richtext_pjxCm9"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_xQi8Gt": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_mH8qgM": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_n6NnD7": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ article.title }}",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_cbwBCH": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mH8qgM",
+        "heading_n6NnD7",
+        "richtext_cbwBCH"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_block_A94mfQ": {
+      "type": "image-with-text-block",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "{{ article.image }}",
+        "content_width": "sm",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "color_scheme": "",
+        "show_image": false,
+        "enable_parallax": true,
+        "image_size": "medium",
+        "content_width": "lg",
+        "show_date": true,
+        "show_category": false,
+        "show_author": false,
+        "show_share_buttons": true,
+        "show_sticky_bar": true,
+        "toolbar_color_scheme": ""
+      }
+    },
+    "prev-next-blog-posts": {
+      "type": "prev-next-blog-posts",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "Read more",
+        "show_category": true,
+        "show_excerpt": true,
+        "show_read_more": true
+      }
+    }
+  },
+  "order": [
+    "rich_text_GfjMXt",
+    "rich_text_xQi8Gt",
+    "image_with_text_block_A94mfQ",
+    "main",
+    "prev-next-blog-posts"
+  ]
+}
